@@ -2,12 +2,7 @@ import { useState, useMemo, useRef } from 'react';
 import { HiSearch, HiCamera } from 'react-icons/hi';
 import { useInView } from '../hooks/useInView';
 
-/* ─────────────────────────────────────────────────────────
-   KATALOG DATA
-   Untuk menambahkan foto:
-   1. Masukkan file foto ke folder: public/images/
-   2. Nama file sesuai kolom `image` di bawah
-   ───────────────────────────────────────────────────────── */
+
 const items = [
   {
     id: 1, title: 'Self Loader',
@@ -175,7 +170,7 @@ export default function Catalog() {
           style={{ textAlign: 'center', marginBottom: 48 }}>
           <div className="badge" style={{ marginBottom: 16 }}>Katalog</div>
           <h2 style={{ fontSize: 'clamp(26px,4vw,40px)', fontWeight: 800, color: '#fff', letterSpacing: '-0.02em', marginBottom: 12 }}>
-            Katalog Sewa <span className="gradient-text">Alat Berat</span>
+            Katalog Sewa <span className="gradient-text">Alat Kontraktor</span>
           </h2>
           <p style={{ color: '#4b5563', fontSize: 15, maxWidth: 460, margin: '0 auto', lineHeight: 1.75 }}>
             Temukan alat berat yang sesuai dengan kebutuhan proyek konstruksi Anda.
