@@ -29,7 +29,7 @@ export default function Hero() {
       background: '#08080f',
       position: 'relative',
       overflow: 'hidden',
-      paddingTop: 72,
+      paddingTop: 20,
     }}>
       {/* Aurora */}
       <div className="aurora-bg">
@@ -63,8 +63,9 @@ export default function Hero() {
           alignItems: 'center',
           textAlign: 'center',
           padding: isMobile ? '60px 16px' : '80px 24px',
-          maxWidth: isMobile ? '100%' : 760,
+          maxWidth: isMobile ? '100%' : 900,
           margin: '0 auto',
+          width: '100%',
         }}>
 
           {/* Badge */}
@@ -87,19 +88,20 @@ export default function Hero() {
             lineHeight: 1.1,
             marginBottom: 20,
           }}>
-            Sewa Alat <span className="gradient-text">Konstruksi Cirebon</span> Terpercaya
+            Sewa Alat <span className="gradient-text">Kontraktor Cirebon</span> Terpercaya
           </h1>
 
           {/* Subtext */}
           <p style={{
             color: '#6b7280',
-            fontSize: isMobile ? '14px' : 'clamp(15px, 1.6vw, 18px)',
+            fontSize: isMobile ? '13px' : 'clamp(13px, 1.6vw, 15px)',
             lineHeight: 1.7,
             marginBottom: 32,
-            maxWidth: 560,
+            marginTop: 10,
+            maxWidth: 820,
           }}>
-            Butuh alat konstruksi tanpa ribet? Semua sudah siap, tinggal sewa di sini.
-            Kami menyediakan berbagai alat berat berkualitas tinggi untuk kebutuhan proyek Anda.
+            Dua Putra Bungsu merupakan penyedia layanan sewa alat kontraktor di Cirebon yang siap membantu berbagai kebutuhan proyek konstruksi Anda. 
+            Kami menyediakan berbagai alat berat seperti excavator, dump truck, bulldozer, dan alat lainnya dengan kondisi prima dan siap digunakan.
           </p>
 
           {/* CTA */}
@@ -158,7 +160,7 @@ export default function Hero() {
             ))}
           </div>
         </div>
-        
+
       </div>
     </section>
   );

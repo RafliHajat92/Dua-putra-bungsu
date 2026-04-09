@@ -48,7 +48,7 @@ export default function Services() {
           <h2 style={{ fontSize: 'clamp(26px,4vw,40px)', fontWeight: 800, color: '#fff', letterSpacing: '-0.02em', marginBottom: 12 }}>
             Pelayanan <span className="gradient-text">Kami</span>
           </h2>
-          <p style={{ color: '#4b5563', fontSize: 15, maxWidth: 500, margin: '0 auto', lineHeight: 1.75 }}>
+          <p style={{ color: '#4b5563', fontSize: 15, maxWidth: 400, margin: '0 auto', lineHeight: 1.75 }}>
             Rangkaian layanan lengkap untuk memenuhi kebutuhan proyek konstruksi Anda.
           </p>
         </div>
