@@ -29,7 +29,7 @@ export default function Hero() {
       background: '#08080f',
       position: 'relative',
       overflow: 'hidden',
-      paddingTop: 20,
+      paddingTop: 50,
     }}>
       {/* Aurora */}
       <div className="aurora-bg">
