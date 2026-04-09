@@ -3,13 +3,13 @@ import { FaWhatsapp, FaInstagram, FaTiktok } from 'react-icons/fa';
 import { useInView } from '../hooks/useInView';
 
 const contactItems = [
-  { icon: <HiPhone size={18}/>,         label:'Telepon', value:'+62 857-9780-5692',                     href:'tel:+6285797805692',               color:'#22c55e' },
+  { icon: <HiPhone size={18}/>,         label:'Telepon', value:'+62 878-6243-3373',                     href:'https://wa.me/6287862433373',               color:'#22c55e' },
   { icon: <HiMail size={18}/>,          label:'Email',   value:'duaputrabungsubyricky@gmail.com',               href:'mailto:duaputrabungsubyricky@gmail.com',    color:'#f97316' },
   { icon: <HiLocationMarker size={18}/>, label:'Alamat',  value:'Jl raya cirebon-bandung km.23, Ciwaringin Kabupaten Cirebon', href:'https://maps.app.goo.gl/JgBtLawHfp7ji3J67',        color:'#fb923c' },
 ];
 
 const socials = [
-  { icon: <FaWhatsapp size={16}/>,  label:'WhatsApp', href:'https://wa.me/6285797805692', hov:'#22c55e' },
+  { icon: <FaWhatsapp size={16}/>,  label:'WhatsApp', href:'https://wa.me/6287862433373', hov:'#22c55e' },
   { icon: <FaInstagram size={16}/>, label:'Instagram', href:'https://www.instagram.com/duaputrabungsu_official?igsh=ZGQ4c3dtNDh0aHY0',                           hov:'#e1306c' },
   { icon: <FaTiktok size={16}/>,  label:'Tiktok',  href:'https://www.tiktok.com/@cvduaputrabungsu?_r=1&_t=ZS-95JVYlXsSLF',                           hov:'#4c2169ff' },
 ];

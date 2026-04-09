@@ -10,12 +10,12 @@ const navLinks = [
   { label: 'Contact', href: '#contact' },
 ];
 const socials = [
-  { icon: <FaWhatsapp size={15}/>,  label: 'WhatsApp', href: 'https://wa.me/6285797805692' },
+  { icon: <FaWhatsapp size={15}/>,  label: 'WhatsApp', href: 'https://wa.me/6287862433373' },
   { icon: <FaInstagram size={15}/>, label: 'Instagram', href: 'https://www.instagram.com/duaputrabungsu_official?igsh=ZGQ4c3dtNDh0aHY0' },
   { icon: <FaTiktok size={15}/>,  label: 'Tiktok',  href: 'https://www.tiktok.com/@cvduaputrabungsu?_r=1&_t=ZS-95JVYlXsSLF' },
 ];
 const contactList = [
-  { icon: <HiPhone size={13}/>,          text: '+62 857-9780-5692',                     href: 'tel:+6285797805692' },
+  { icon: <HiPhone size={13}/>,          text: '+62 878-6243-3373',                     href: 'https://wa.me/6287862433373' },
   { icon: <HiMail size={13}/>,           text: 'duaputrabungsubyricky@gmail.com',               href: 'mailto:duaputrabungsubyricky@gmail.com' },
   { icon: <HiLocationMarker size={13}/>, text: 'Jl raya cirebon-bandung km.23, Ciwaringin Kabupaten Cirebon', href: 'https://maps.app.goo.gl/JgBtLawHfp7ji3J67' },
 ];
