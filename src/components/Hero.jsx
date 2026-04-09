@@ -81,8 +81,7 @@ export default function Hero() {
 
           {/* Heading */}
           <h1 style={{
-            fontSize: isMobile ? '32px' : 'clamp(38px
-            , 6vw, 72px)',
+            fontSize: isMobile ? '32px' : 'clamp(38px, 6vw, 72px)',
             fontWeight: 800,
             color: '#fff',
             lineHeight: 1.1,
