@@ -76,7 +76,7 @@ export default function Hero() {
               background: '#22c55e',
               display: 'inline-block'
             }} />
-            Sewa Alat Kontraktor Cirebon Terpercaya
+            Anggota Resmi GAPENSI
           </div>
 
           {/* Heading */}
@@ -87,7 +87,7 @@ export default function Hero() {
             lineHeight: 1.1,
             marginBottom: 20,
           }}>
-            Sewa Alat <span className="gradient-text">Konstruksi</span> Terpercaya
+            Sewa Alat <span className="gradient-text">Konstruksi Cirebon</span> Terpercaya
           </h1>
 
           {/* Subtext */}
@@ -157,47 +157,8 @@ export default function Hero() {
               </div>
             ))}
           </div>
-
         </div>
-      </div>
-
-      {/* Scroll */}
-      <div style={{
-        position: 'absolute',
-        bottom: 24,
-        left: '50%',
-        transform: 'translateX(-50%)',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        gap: 6,
-        animation: 'bounce 2s infinite',
-        zIndex: 1,
-      }}>
-        <span style={{
-          color: '#374151',
-          fontSize: 11,
-          letterSpacing: '0.1em',
-          textTransform: 'uppercase'
-        }}>
-          Scroll
-        </span>
-        <div style={{
-          width: 18,
-          height: 30,
-          border: '1.5px solid rgba(249,115,22,0.3)',
-          borderRadius: 99,
-          display: 'flex',
-          justifyContent: 'center',
-          paddingTop: 5
-        }}>
-          <div style={{
-            width: 3,
-            height: 6,
-            background: '#f97316',
-            borderRadius: 99
-          }} />
-        </div>
+        
       </div>
     </section>
   );
