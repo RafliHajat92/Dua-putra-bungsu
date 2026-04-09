@@ -76,12 +76,13 @@ export default function Hero() {
               background: '#22c55e',
               display: 'inline-block'
             }} />
-            Anggota Resmi GAPENSI
+            Sewa Alat Kontraktor Cirebon Terpercaya
           </div>
 
           {/* Heading */}
           <h1 style={{
-            fontSize: isMobile ? '32px' : 'clamp(38px, 6vw, 72px)',
+            fontSize: isMobile ? '32px' : 'clamp(38px
+            , 6vw, 72px)',
             fontWeight: 800,
             color: '#fff',
             lineHeight: 1.1,
