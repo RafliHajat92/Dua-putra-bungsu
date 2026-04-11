@@ -38,7 +38,7 @@ export default function About() {
             Kenapa Harus <span className="gradient-text">Kami?</span>
           </h2>
           <p style={{ color: '#4b5563', fontSize: 15, maxWidth: 500, margin: '0 auto', lineHeight: 1.75 }}>
-            Bergabunglah dengan ratusan kontraktor yang telah mempercayakan kebutuhan alat berat mereka kepada kami.
+            Bergabunglah dengan ratusan berat yang telah mempercayakan kebutuhan alat berat mereka kepada kami.
           </p>
         </div>
 

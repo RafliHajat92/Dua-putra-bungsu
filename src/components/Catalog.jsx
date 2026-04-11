@@ -170,7 +170,7 @@ export default function Catalog() {
           style={{ textAlign: 'center', marginBottom: 48 }}>
           <div className="badge" style={{ marginBottom: 16 }}>Katalog</div>
           <h2 style={{ fontSize: 'clamp(26px,4vw,40px)', fontWeight: 800, color: '#fff', letterSpacing: '-0.02em', marginBottom: 12 }}>
-            Katalog Sewa <span className="gradient-text">Alat Kontraktor</span>
+            Katalog Sewa <span className="gradient-text">Alat berat</span>
           </h2>
           <p style={{ color: '#4b5563', fontSize: 15, maxWidth: 560, margin: '0 auto', lineHeight: 1.75 }}>
             Temukan alat berat yang sesuai dengan kebutuhan proyek konstruksi Anda.

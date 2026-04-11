@@ -88,7 +88,7 @@ export default function Hero() {
             lineHeight: 1.1,
             marginBottom: 20,
           }}>
-            Sewa Alat <span className="gradient-text">Kontraktor Cirebon</span> Terpercaya
+            Sewa Alat <span className="gradient-text">Berat Cirebon</span> Terpercaya
           </h1>
 
           {/* Subtext */}
@@ -100,7 +100,7 @@ export default function Hero() {
             marginTop: 10,
             maxWidth: 820,
           }}>
-            Dua Putra Bungsu merupakan penyedia layanan sewa alat kontraktor di Cirebon yang siap membantu berbagai kebutuhan proyek konstruksi Anda. 
+            Dua Putra Bungsu merupakan penyedia layanan sewa alat berat di Cirebon yang siap membantu berbagai kebutuhan proyek konstruksi Anda. 
             Kami menyediakan berbagai alat berat seperti excavator, dump truck, bulldozer, dan alat lainnya dengan kondisi prima dan siap digunakan.
           </p>
 
