@@ -58,7 +58,7 @@ export default function Footer() {
                 <div style={{ color: '#f97316', fontSize: 11, fontWeight: 500 }}>Sewa Alat Konstruksi</div>
               </div>
             </div>
-            <p style={{ color: '#1f2937', fontSize: 13, lineHeight: 1.8 }}>
+            <p style={{ color: '#ffff', fontSize: 13, lineHeight: 1.8 }}>
               Penyedia jasa sewa alat berat konstruksi profesional. Anggota resmi GAPENSI dengan komitmen mutu dan pelayanan terbaik.
             </p>
             <div style={{ display: 'flex', gap: 8 }}>
@@ -87,9 +87,9 @@ export default function Footer() {
               {navLinks.map((link) => (
                 <li key={link.label}>
                   <a href={link.href} onClick={(e) => go(e, link.href)}
-                    style={{ color: '#1f2937', fontSize: 13, textDecoration: 'none', fontWeight: 500, transition: 'color 0.2s' }}
+                    style={{ color: '#ffff', fontSize: 13, textDecoration: 'none', fontWeight: 500, transition: 'color 0.2s' }}
                     onMouseEnter={(e) => (e.target.style.color = '#fb923c')}
-                    onMouseLeave={(e) => (e.target.style.color = '#1f2937')}>
+                    onMouseLeave={(e) => (e.target.style.color = '#ffff')}>
                     {link.label}
                   </a>
                 </li>
@@ -106,9 +106,9 @@ export default function Footer() {
               {contactList.map((c) => (
                 <li key={c.text} style={{ display: 'flex', alignItems: 'flex-start', gap: 8 }}>
                   <span style={{ color: '#f97316', marginTop: 2, flexShrink: 0 }}>{c.icon}</span>
-                  <a href={c.href} style={{ color: '#1f2937', fontSize: 12, textDecoration: 'none', lineHeight: 1.5, fontWeight: 500, transition: 'color 0.2s' }}
+                  <a href={c.href} style={{ color: '#ffff', fontSize: 12, textDecoration: 'none', lineHeight: 1.5, fontWeight: 500, transition: 'color 0.2s' }}
                     onMouseEnter={(e) => (e.target.style.color = '#9ca3af')}
-                    onMouseLeave={(e) => (e.target.style.color = '#1f2937')}>
+                    onMouseLeave={(e) => (e.target.style.color = '#ffff')}>
                     {c.text}
                   </a>
                 </li>
@@ -123,12 +123,12 @@ export default function Footer() {
           display: 'flex', alignItems: 'center', justifyContent: 'space-between',
           flexWrap: 'wrap', gap: 12,
         }}>
-          <p style={{ color: '#111827', fontSize: 12 }}>
+          <p style={{ color: '#ffff', fontSize: 12 }}>
             © {new Date().getFullYear()} Dua Putra Bungsu. All rights reserved.
           </p>
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
             <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#22c55e', display: 'inline-block', animation: 'pulse 2s infinite' }} />
-            <span style={{ color: '#111827', fontSize: 12, fontWeight: 500 }}>Anggota Resmi GAPENSI</span>
+            <span style={{ color: '#ffff', fontSize: 12, fontWeight: 500 }}>Anggota Resmi GAPENSI</span>
           </div>
         </div>
       </div>
