@@ -53,7 +53,7 @@ export default function Navbar() {
           </div>
           <div>
             <div style={{ color: '#fff', fontWeight: 700, fontSize: 15, lineHeight: 1.2 }}>Dua Putra Bungsu</div>
-            <div style={{ color: '#fb923c', fontSize: 11, fontWeight: 500 }}>Sewa Alat Konstruksi</div>
+            <div style={{ color: '#fb923c', fontSize: 11, fontWeight: 500 }}>Sewa Alat berat</div>
           </div>
         </a>
 

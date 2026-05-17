@@ -55,7 +55,7 @@ export default function Footer() {
               </div>
               <div>
                 <div style={{ color: '#fff', fontWeight: 700, fontSize: 15 }}>Dua Putra Bungsu</div>
-                <div style={{ color: '#f97316', fontSize: 11, fontWeight: 500 }}>Sewa Alat Konstruksi</div>
+                <div style={{ color: '#f97316', fontSize: 11, fontWeight: 500 }}>Sewa Alat Berat</div>
               </div>
             </div>
             <p style={{ color: '#ffff', fontSize: 13, lineHeight: 1.8 }}>
