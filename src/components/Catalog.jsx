@@ -7,64 +7,46 @@ const items = [
   {
     id: 1, title: 'Self Loader',
     image: '/images/self-loader.png',
-    cat: 'Transportasi', emoji: '🚛',
-    spec: '20–30 ton',
     desc: 'Kendaraan pengangkut alat berat dengan sistem self-loading. Ideal untuk mobilisasi excavator ke lokasi proyek.',
   },
   {
     id: 2, title: 'Motor Grader',
     image: '/images/motor-grader.png',
-    cat: 'Perataan', emoji: '🚜',
-    spec: 'Blade 3.7–4.3 m',
     desc: 'Alat untuk meratakan dan menstabilkan permukaan tanah. Sempurna untuk pekerjaan jalan dan grading area.',
   },
   {
     id: 3, title: 'DT Index 24',
     image: '/images/DT Index 24.png',
-    cat: 'Transportasi', emoji: '🚚',
-    spec: '10–20 m³',
     desc: 'Truk pengangkut material berkapasitas besar untuk mengangkut tanah, pasir, batu, dan material konstruksi.',
   },
   {
     id: 4, title: 'Bulldozer D65',
     image: '/images/bulldozer-d65.png',
-    cat: 'Pendorongan', emoji: '🏗️',
-    spec: 'Engine 155 HP',
     desc: 'Bulldozer bertenaga tinggi untuk mendorong dan meratakan tanah dalam volume besar. Cocok untuk land clearing.',
   },
   {
     id: 5, title: 'Excavator Long Arm',
     image: '/images/excavator-long-arm.png',
-    cat: 'Penggalian', emoji: '⚙️',
-    spec: 'Boom 12–18 m',
     desc: 'Excavator dengan lengan panjang untuk penggalian di tempat sulit, parit dalam, dan pekerjaan sungai.',
   },
   {
     id: 6, title: 'Excavator SK 200',
     image: '/images/excavator-sk200.png',
-    cat: 'Penggalian', emoji: '🔧',
-    spec: '20 ton',
     desc: 'Excavator serbaguna kelas 20 ton dari Kobelco. Performa tinggi dengan konsumsi BBM efisien.',
   },
   {
     id: 7, title: 'Excavator Sany SY 75',
     image: '/images/excavator-sany-sy75.png',
-    cat: 'Penggalian', emoji: '🦾',
-    spec: '7.5 ton',
     desc: 'Mini excavator kompak namun bertenaga, ideal untuk proyek di area terbatas dan pekerjaan presisi tinggi.',
   },
   {
     id: 8, title: 'Excavator Breaker',
     image: '/images/excavator-breaker.png',
-    cat: 'Penghancuran', emoji: '💥',
-    spec: '300–500 hit/min',
     desc: 'Excavator dengan hydraulic breaker untuk memecah batu, beton, dan aspal. Efisien untuk demolition.',
   },
   {
     id: 9, title: 'Vibro Roller & Sheep Foot',
     image: '/images/vibro-roller.png',
-    cat: 'Pemadatan', emoji: '🛞',
-    spec: 'Lebar 1.5–2.1 m',
     desc: 'Mesin pemadat tanah dengan teknologi vibrasi. Tersedia smooth drum dan sheep foot untuk berbagai material.',
   },
 ];
@@ -100,12 +82,9 @@ function PhotoFrame({ item, cs }) {
           <span className="photo-placeholder-icon">{item.emoji}</span>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
             <div className="photo-placeholder-hint" style={{ borderColor: cs.color + '40', color: cs.color + '90' }}>
-              <HiCamera style={{ display: 'inline', marginRight: 4, verticalAlign: 'middle' }} />
-              Tambahkan Foto
+
             </div>
-            <div className="photo-placeholder-label">
-              📁 public/images/{item.image.replace('/images/', '')}
-            </div>
+
           </div>
         </div>
       </div>

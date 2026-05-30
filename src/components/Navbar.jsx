@@ -30,9 +30,10 @@ export default function Navbar() {
     <nav style={{
       position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
       transition: 'background 0.35s, border-color 0.35s, box-shadow 0.35s',
-      background: scrolled ? 'rgba(8,8,15,0.88)' : 'transparent',
-      backdropFilter: scrolled ? 'blur(20px) saturate(180%)' : 'none',
-      borderBottom: scrolled ? '1px solid rgba(249,115,22,0.12)' : '1px solid transparent',
+      background: scrolled ? 'rgba(8, 8, 15, 0.35)' : 'transparent',
+      backdropFilter: scrolled ? 'blur(24px) saturate(180%)' : 'none',
+      WebkitBackdropFilter: scrolled ? 'blur(24px) saturate(180%)' : 'none',
+      borderBottom: scrolled ? '1px solid rgba(255, 255, 255, 0.08)' : '1px solid transparent',
       boxShadow: scrolled ? '0 4px 40px rgba(0,0,0,0.5)' : 'none',
     }}>
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
@@ -90,8 +91,9 @@ export default function Navbar() {
         maxHeight: isOpen ? 360 : 0, opacity: isOpen ? 1 : 0,
       }} className="md:hidden">
         <div style={{
-          background: 'rgba(8,8,15,0.98)', backdropFilter: 'blur(20px)',
-          borderTop: '1px solid rgba(249,115,22,0.12)', padding: '12px 16px 16px',
+          background: 'rgba(8, 8, 15, 0.4)', backdropFilter: 'blur(30px) saturate(200%)',
+          WebkitBackdropFilter: 'blur(30px) saturate(200%)',
+          borderTop: '1px solid rgba(255, 255, 255, 0.08)', padding: '12px 16px 16px',
         }}>
           {navLinks.map((link) => (
             <a key={link.label} href={link.href} onClick={(e) => go(e, link.href)}

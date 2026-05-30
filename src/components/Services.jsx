@@ -1,17 +1,16 @@
-import { MdSpeed, MdConstruction, MdSupportAgent } from 'react-icons/md';
 import { HiCheck } from 'react-icons/hi';
 import { useInView } from '../hooks/useInView';
 
 const services = [
   {
-    icon: <MdSpeed size={24} />,
+    num: '01',
     color: '#fb923c',
     title: 'Proses Cepat & Mudah',
     desc: 'Pemesanan alat berat dalam beberapa langkah. Proses administrasi simpel, transparan, tanpa birokrasi rumit.',
     features: ['Booking online 24/7', 'Konfirmasi cepat', 'Dokumen digital'],
   },
   {
-    icon: <MdConstruction size={24} />,
+    num: '02',
     color: '#fff',
     title: 'Penyewaan Alat Berkualitas',
     desc: 'Armada alat berat terawat baik dan selalu dalam kondisi prima. Setiap unit diperiksa sebelum dikirim ke lokasi.',
@@ -19,7 +18,7 @@ const services = [
     featured: true,
   },
   {
-    icon: <MdSupportAgent size={24} />,
+    num: '03',
     color: '#fbbf24',
     title: 'Dukungan Profesional',
     desc: 'Tim kami siap membantu Anda 24/7 selama masa sewa. Operator & teknisi siap mendampingi proyek Anda.',
@@ -72,22 +71,15 @@ export default function Services() {
             }}>
               {s.featured && (
                 <div style={{
-                  position: 'absolute', top: 14, right: 14,
+                  position: 'absolute', top: 14, right: 14, zIndex: 10,
                   padding: '3px 10px', background: '#f97316', color: '#fff',
                   fontSize: 11, fontWeight: 700, borderRadius: 99,
                 }}>
                   Paling Populer
                 </div>
               )}
-              <div style={{
-                width: 48, height: 48, borderRadius: 12, marginBottom: 20,
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                background: `${s.featured ? '#f97316' : s.color}18`,
-                color: s.featured ? '#f97316' : s.color,
-              }}>
-                {s.icon}
-              </div>
-              <h3 style={{ fontSize: 16, fontWeight: 700, color: '#fff', marginBottom: 10 }}>{s.title}</h3>
+              
+              <h3 style={{ fontSize: 20, fontWeight: 800, color: '#fff', marginBottom: 12, marginTop: 12, position: 'relative', zIndex: 2 }}>{s.title}</h3>
               <p style={{
                 fontSize: 13, lineHeight: 1.75, flex: 1, marginBottom: 20,
                 color: s.featured ? 'rgba(253,186,116,0.8)' : '#4b5563',

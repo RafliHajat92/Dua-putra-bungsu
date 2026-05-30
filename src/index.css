@@ -332,3 +332,91 @@ body {
 @media (max-width: 768px) {
   .footer-grid { grid-template-columns: 1fr !important; gap: 32px; }
 }
+
+/* ════════════════════════════════════════
+   MORPH GLASS UTILITIES
+   ════════════════════════════════════════ */
+.glass-morph {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(24px) saturate(160%);
+  -webkit-backdrop-filter: blur(24px) saturate(160%);
+  border: 1px solid rgba(255,255,255,0.09);
+}
+.glass-morph-orange {
+  background: rgba(249,115,22,0.05);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(249,115,22,0.18);
+}
+
+/* ── Dot pulse animation (used in eyebrow) ── */
+@keyframes pulse {
+  0%, 100% { opacity: 1;   box-shadow: 0 0 8px rgba(34,197,94,.9); }
+  50%       { opacity: .7; box-shadow: 0 0 16px rgba(34,197,94,.5); }
+}
+
+/* ════════════════════════════════════════
+   HERO + ABOUT RESPONSIVE
+   ════════════════════════════════════════ */
+
+/* ── Tablet ≤1024px ── */
+@media (max-width: 1024px) {
+  /* About: pillar cards 2-col */
+  #about .pillars-row,
+  [id="about"] [style*="repeat(3, 1fr)"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* ── Mobile ≤768px ── */
+@media (max-width: 768px) {
+  /* Hero content padding */
+  #home [style*="padding: '0 48px'"],
+  #home [style*="0 48px"] {
+    padding: 0 20px !important;
+  }
+
+  /* Hero headline size */
+  #home h1 {
+    font-size: clamp(36px, 10vw, 56px) !important;
+  }
+
+  /* About container padding */
+  #about [style*="padding: '0 48px'"],
+  #about [style*="0 48px"] {
+    padding: 0 20px !important;
+  }
+
+  /* About metrics bar: 2×2 wrap */
+  #about [style*="repeat(4"] {
+    flex-wrap: wrap !important;
+  }
+
+  /* About pillars: single col */
+  #about [style*="repeat(3, 1fr)"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* About trust block: stack */
+  #about [style*="flex"] > [style*="gap: 60"] {
+    flex-direction: column !important;
+    gap: 32px !important;
+    padding: 28px 24px !important;
+  }
+
+  .nf-btn-primary,
+  .nf-btn-glass {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  #home [style*="padding: '0 48px'"],
+  #home [style*="0 48px"] {
+    padding: 0 16px !important;
+  }
+  #about [style*="padding: '0 48px'"] {
+    padding: 0 16px !important;
+  }
+}
